@@ -4,7 +4,7 @@ const product= express.Router();
 const mysql= require('mysql');
 
 const pool= mysql.createPool({
-    host:"localhost",
+    host:"127.0.0.1",
     user:"root",
    database:"estore1",
     password:process.env.DB_PASSWORD,
